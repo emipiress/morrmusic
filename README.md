@@ -2,4 +2,6 @@
 
 Versão NÃO RESPONSIVA do Projeto Alura.
 
-VERSÃO RESPONSIVA: 
+SITE: https://emipiress.github.io/morrmusicRES/
+
+# VERSÃO RESPONSIVA: https://github.com/emipiress/morrmusicRES
