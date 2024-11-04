@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MORRMUSIC</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@100..900&family=Grenze:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <input type="checkbox" id="menu" class="container__button">
+      <label for="menu">
+        <span class="header__menu container__img"></span>
+      </label>
+      <ul class="lista-menu">
+        <li class="lista-menu__title">EXPLORAR</li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Resenhas...</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Artistas...</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Notícias...</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Playlists...</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Lançamentos...</a>
+        </li>
+      </ul>
+      <img src="img/Logo.svg" alt="Logo do MORRMUSIC" class="container__img">
+    </div>
+    <div class="container">
+      <a href="#"><img src="img/Dia.svg" alt="Meus favoritos" class="container__img"></a>
+      <a href="#"><img src="img/Extra3.svg" alt="Carrinhos de compras" class="container__img"></a>
+      <a href="#"><img src="img/User.svg" alt="Meu perfil" class="container__img"></a>
+    </div>
+  </header>
+
+  <section class="banner">
+    <h2 class="banner__title">Quer conhecer novos sons incríveis?</h2>
+    <p class="banner__text">Pesquise e descubra!</p>
+    <input type="search" class="banner__search" placeholder="O que você quer ouvir hoje?">
+  </section>
+
+  <section class="destaques">
+    <h2 class="destaques__title">Últimas Resenhas</h2>
+    <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><img src="img/significantother.png"
+            alt="Resenha: 'Significant Other'"></div>
+        <div class="swiper-slide"><img src="img/ridethelightning.png"
+            alt="Resenha: 'Ride the Lightning'"></div>
+        <div class="swiper-slide"><img src="img/masterofreality.png" 
+          alt="Resenha: 'Master of Reality'"></div>
+        <div class="swiper-slide">
+          <img src="img/fearofthedark.png" 
+          alt="Resenha: 'Fear of The Dark'" /></div>
+        <div class="swiper-slide">
+          <img src="img/countdowntoextinction.png" 
+          alt="Resenha: 'Countdown to Extinction'" /></div>
+        <div class="swiper-slide">
+          <img src="img/forbidden.png" 
+          alt="Resenha: 'Forbidden'" /></div>
+      </div>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+
+    </div>
+
+    <div class="card">
+      <div class="card__descript">
+        <div class="descript">
+          <h3 class="descript__title">Talvez você também se interesse por...</h3>
+          <h2 class="descript__title-play">PLAYLIST: HEADLESS CROSS</h2>
+          <p class="descript__text">
+            Uma playlist com mais de MIL músicas do gênero rock e heavy metal. Impossível não encontrar algo que goste aqui!
+          </p>
+        </div>
+        <img src="https://i.scdn.co/image/ab67706c0000da84eeec09ec0662c3c736dc79bd" class="descript__img" />
+      </div>
+      <div class="card__buttons">
+        <ul class="buttons">
+          <li class="buttons__item">
+            <img src="img/Dia.svg" alt="Favoritar livro" />
+          </li>
+          <li class="botões__item">
+            <img src="img/Extra3.svg" alt="Adicionar no carrinho de compras" />
+          </li>
+        </ul>
+        <a href="#" class="buttons__anchor">Saiba mais</a>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="destaques">
+    <h2 class="destaques__title">Mais Acessados</h2>
+    <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><img src="img/significantother.png"
+            alt="Resenha: 'Significant Other'"></div>
+        <div class="swiper-slide"><img src="img/ridethelightning.png"
+            alt="Resenha: 'Ride the Lightning'"></div>
+        <div class="swiper-slide"><img src="img/masterofreality.png" 
+          alt="Resenha: 'Master of Reality'"></div>
+        <div class="swiper-slide">
+          <img src="img/fearofthedark.png" 
+          alt="Resenha: 'Fear of The Dark'" /></div>
+        <div class="swiper-slide">
+          <img src="img/countdowntoextinction.png" 
+          alt="Resenha: 'Countdown to Extinction'" /></div>
+        <div class="swiper-slide">
+          <img src="img/forbidden.png" 
+          alt="Resenha: 'Forbidden'" /></div>
+      </div>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+
+    </div>
+
+    <div class="card">
+      <!-- 1º linha -->
+      <div class="card__descript">
+        <!-- 1º coluna -->
+        <div class="descript">
+          <img src="img/Extra1.svg" alt="Autor do Site">
+          <h3 class="descript__title">SOBRE O AUTOR...</h3>
+          <h2 class="descript__title-play">Dracula Morrpheus</h2>
+          <p class="descript__text">Dracula Morrpheus é um grande fã de heavy metal 
+          que busca compartilhar suas músicas e bandas favoritas 
+          por meio de suas playlists do Spotify.
+          </p>
+        </div>
+        <!-- 2º coluna -->
+        <img src="https://i.scdn.co/image/ab6775700000ee85d5acd48f359e359521ee03d0" class="descript__img">
+      </div>
+
+      <!-- 2º linha -->
+      <div class="card__buttons">
+        <!-- 1º coluna -->
+        <ul class="buttons">
+          <li class="buttons__item"><img src="img/Dia.svg" alt="Favoritar livro"></li>
+          <li class="buttons__item"><img src="img/Album.svg" alt="Adicionar no carrinho de compras"></li>
+        </ul>
+        <!-- 2º coluna -->
+        <a href="#" class="buttons__anchor">Saiba mais</a>
+      </div>
+    </div>
+
+
+
+  </section>
+
+  <section class="topics">
+    <h2 class="topics__title">TÓPICOS VISITADOS RECENTEMENTE...</h2>
+    <ul class="topics__list">
+      <li class="topics__item">
+        <a href="#" class="topics__link">HEAVY METAL</a>
+      </li>
+      <li class="topics__item">
+        <a href="#" class="topics__link">DOOM METAL</a>
+      </li>
+      <li class="topics__item">
+        <a href="#" class="topics__link">ROCK 'N ROLL</a>
+      </li>
+      <li class="topics__item">
+        <a href="#" class="topics__link">BANDA - KORN</a>
+      </li>
+      <li class="topics__item">
+        <a href="#" class="topics__link">SHOWS</a>
+      </li>
+      <li class="topics__item">
+        <a href="#" class="topics__link">ÁLBUM DO DIA</a>
+      </li>
+      <li class="topics__item">
+        <a href="#" class="topics__link">BANDA - LIMP BIZKIT</a>
+      </li>
+      <li class="topics__item">
+        <a href="#" class="topics__link">ESTILOS MUSICAIS</a>
+      </li>
+    </ul>
+  </section>
+
+  <section class="contact">
+    <h2 class="contact__title">Fique por dentro das novidades!</h2>
+    <p class="contact__text">Receba as últimas resenhas, as faixas do momento e as informações do mundo do metal em um clique!</p>
+    <input type="email" placeholder="Cadastre seu e-mail..." class="contact__email"/>
+  </section>
+
+  <hr />
+
+  <footer class="ftr">
+  <h2 class="ftr__title">DRACULA MORRPHEUS</h2>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper(".swiper", {
+      spaceBetween: 10,
+      slidesPerView: 3,
+      pagination: {
+        el: ".swiper-pagination",
+        type: "bullets",
+      },
+    });
+  </script>
+</body>
+
+</html>
