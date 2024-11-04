@@ -1,0 +1,12 @@
+hr {
+    margin: 0;
+}
+
+.ftr {
+    background-color: black;
+    padding: 1em;
+}
+
+.ftr__title {
+    color: var(--branco);
+}
