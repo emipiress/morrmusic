@@ -24,8 +24,8 @@
     width: 100%;
 }
 
-.banner__pesquisa::placeholder {
-    font-family: var(--fonte-principal);
+.banner__search::placeholder {
+    font-family: var(--fonte-main);
     font-size: 14px;
     font-weight: 400;
     text-align: center;
